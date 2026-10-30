@@ -1,7 +1,7 @@
 /*
 terraform {
   backend "s3" {
-    bucket = "ztr-bucket-east-us-1-terraform"
+    bucket = "bucket-east-us-1-terraform"
     key    = "state/terraform.tfstate"
     region = "us-east-1"
     use_lockfile = true
